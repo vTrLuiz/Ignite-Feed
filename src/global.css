@@ -1,0 +1,31 @@
+
+
+:root {
+ --white: #ffffff;
+ --gray-100: #f9f9f9;
+  --gray-300: #e0e0e0;
+  --gray-400: #c0c0c0;
+  --gray-500: #a0a0a0;
+  --gray-600: #808080;
+  --gray-700: #606060;
+  --gray-800: #404040;
+  --gray-900: #202020;
+  --black: #000000;
+  --green-500: #00875f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem 'Roboto', sans-serif;
+}
