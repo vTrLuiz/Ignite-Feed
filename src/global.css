@@ -11,7 +11,9 @@
   --gray-800: #404040;
   --gray-900: #202020;
   --black: #000000;
-  --green-500: #00875f;
+  --green:#00875f;
+  --green-light: #00B37E;
+  --red-danger: #F75a68;
 }
 
 * {

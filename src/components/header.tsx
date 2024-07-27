@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Logo } from "../assets/icon/logo"
+import Logo from "../assets/icon/logo"
 
 const TagHeader = styled.header`
     background-color: var(--gray-800);
@@ -13,9 +13,13 @@ const LogoTipo = styled.a`
     align-items: center;
     gap: 0.5rem;
     color: var(--gray-50);
-    font-size: 1.25rem;
+    font-size: 1.5625rem;
     font-weight: 700;
     text-decoration: none;
+    `
+const LogoStyled = styled(Logo)`
+    width: 4rem;
+    height: auto;
     `
 
 export function Header() {
@@ -23,7 +27,7 @@ export function Header() {
         <TagHeader>
             <LogoTipo
                 href="/">
-                <Logo />
+                <LogoStyled/>
                     Ignite Feed
             </LogoTipo>
 
