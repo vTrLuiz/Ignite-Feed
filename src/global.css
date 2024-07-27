@@ -1,8 +1,6 @@
-
-
 :root {
- --white: #ffffff;
- --gray-100: #f9f9f9;
+  --white: #ffffff;
+  --gray-100: #f9f9f9;
   --gray-300: #e0e0e0;
   --gray-400: #c0c0c0;
   --gray-500: #a0a0a0;
@@ -11,9 +9,9 @@
   --gray-800: #404040;
   --gray-900: #202020;
   --black: #000000;
-  --green:#00875f;
-  --green-light: #00B37E;
-  --red-danger: #F75a68;
+  --green: #00875f;
+  --green-light: #00b37e;
+  --red-danger: #f75a68;
 }
 
 * {
@@ -28,6 +26,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-  font: 400 1rem 'Roboto', sans-serif;
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Roboto", sans-serif;
 }
